@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL WEBSITE</title>
+    <link rel="stylesheet" href="./project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="./images/bg.jpg" alt="">NEXAAAZ</li>
+            <li><a href="./project.html" style="color: red;text-decoration: none;">Home</a></li>
+            <li><a href="./about.html" style="color: red;text-decoration: none;">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="list">
+            <h1 id="displayText"></h1>
+            <div class="itemcontainer">
+                <div class="Item">
+                    <img  alt="1" src="./images/games.jpg">
+                    <p class="Name"><a href="https://azeemak7.github.io/games-store/">GAMES</a></p>
+                </div>
+                <div class="Item">
+                <img  alt="1" src="./images/logo.jpg">
+                <p class="Name"><a href="https://azeemak7.github.io/music-website/">MUSIC</a></p>
+                </div>
+                <div class="Item">
+                <img  alt="1" src="./images/project.webp">
+                <p class="Name"><a href="./myProject.html">PROJECT</a></p>
+                </div>
+                <div class="Item">
+                <img  alt="1" src="./images/projectplan.jpg">
+                <p class="Name"><a href="./projectPlan.html">PROJECT PLAN</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var userInput = sessionStorage.getItem("userInput");
+
+        
+        document.getElementById("displayText").innerText = "HELLO " + userInput;
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>PERSONAL PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container">
+      <h1>WELCOME</h1>
+
+      <div >
+        
+        <input type="text" id="inputText" placeholder="enter your name">
+      </div>
+
+    </div>
+
+    <div class="btn">
+    <button onclick="submitText()"><a href="./project.html">ENTER</a></button>
+    </div>
+    <script>
+        function submitText() {
+           
+            var inputText = document.getElementById("inputText").value;
+
+            sessionStorage.setItem("userInput", inputText);
+
+          
+            window.location.href = "project.html";
+        }
+    </script>
+</body>
+
+  <footer>
+    www . AKA NEXAAZ . com
+  </footer>
+</html>
+
+

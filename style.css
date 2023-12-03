@@ -1,0 +1,77 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#inputText{
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    border-radius: px;
+    height: 30px;
+    width: 200px;
+    box-shadow: 1px 1px 3px 2px rgb(131, 130, 143);
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+body{
+    background-image:url(./images/dark.avif);
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{
+    animation-name: head;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes head {
+    to{color: rgb(131, 130, 143);}
+    from{color: #3adaa4;}
+}
+
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: #4ECCA3;
+}
+
+
+img {
+    width: 80%;
+}
+
+footer {
+    margin-top: 5%;
+    color: #f5890d;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+button{
+    background-color: #393E46;
+    color: rgb(0, 255, 149);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    
+  }
+  a{
+    color: #adbcd1;
+    text-decoration: none;
+  }
